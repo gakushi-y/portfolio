@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>portfolio</title>
-
+  
     <!-- jQuery.jsの読み込み -->
     <script src="./../jq/jquery-3.5.1.min.js"></script>
     
     <script>
-      $(function(){
+      $(document).ready(function(){
         //指定箇所までゆっくり移動
         $('header a[href^=#]').click(function() {
           var speed = 500;
