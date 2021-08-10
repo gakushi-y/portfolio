@@ -305,7 +305,7 @@ footer .name{
         display: block;
     }
     .myProContainer div{
-        height: none;
+        height: 90%;
         width: 90%;
         padding: 10px;
         margin-bottom: 10px;
